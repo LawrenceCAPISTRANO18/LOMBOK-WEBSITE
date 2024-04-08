@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100;12..72,400;12..72,700&display=swap");
+/* repeatable pattern */
+:root {
+  --clr-dark: #2b2b2b;
+  --clr-light: #fff;
+  --clr-primary: #1b8b83;
+  --clr-secondary: #cfa584;
+  --clr-semilight: #d9d9d9;
+  --font: "Truculenta", sans-serif;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+body {
+  color: var(--clr-dark);
+  font-family: var(--font);
+  font-size: 1.6rem;
+  overflow-x: hidden;
+  line-height: 1.4;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+article,
+aside,
+footer,
+header,
+nav,
+section,
+time {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  max-height: 100%;
+  height: 1024px;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+/* BANNER */
+.Header {
+    padding: 2rem 0;
+    background-color: transparent;
+    
+  }
+  .Header__wrapper {
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+   align-items: flex-end;
+
+  }
+  .Header ul {
+    display: flex;
+    gap: 2rem;
+  }
+  .Header .Header__wrapper ul li a {
+  
+    font-weight: 700;
+    color: var(--clr-dark);
+    font-size: 2rem;
+  }
+  
+  .Header_nav {
+
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .Header .Header__wrapper ul li a:hover {
+    color: var(--clr-primary);
+  }
+  
+  /* MOBILE RESPONSIVE */
+  .Header .toggle_menu span {
+    color: var(--clr-primary);
+    width: 3rem;
+    height: 0.3rem;
+    border: 2px solid;
+    border-radius: 1rem;
+
+  }
+  .Header .toggle_menu {
+    display: none;
+  }
+  
+  .aboutBanner__bg {
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      )
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  width: 100%;
+      margin-bottom: 10px;
+  display: flex;
+  flex-direction:  column;
+  justify-content: center;
+  text-align: center;
+  }
+  .aboutBanner{
+    max-width: 100%;
+    width: auto;
+  }
+  
+  .catalogbanner h1{
+  
+    font-size: 10rem;
+    font-weight: 700;
+    color: var(--clr-primary);
+  }
+  
+  .catalogbanner p {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+
+  .aboutBanner_wrapper h1 {
+    font-size: 25rem;
+    
+  }
+  #about{
+
+  }
