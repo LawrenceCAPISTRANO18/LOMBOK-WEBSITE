@@ -3,52 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lombok</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <style>
-        body{
-            background-image: url(./banner.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-    </style>
 </head>
 <body>
-    
 <!--  BANNER -->
 <header class="Header">
     <div class="container">
         <div class="Header__wrapper">
             <h1>LO</h1>
+            
             <nav>
                 <ul class="Header_nav">
                   <li><a href="#about">ABOUT</a></li>
-                  <li><a href="./articles.html">ARTICLES</a></li>
-                  <li><a href="./subcribe.html">SUBCRIBE</a></li>
+                  <li><a href="#articles">ARTICLES</a></li>
+                  <li><a href="#subscribe"> <span class="box"> SUBSCRIBE </span> </a>
+                  </li>
                   </ul>
-                </nav>
-                <div class="toggle_menu">
+                </nav>  
+                  <div class="toggle_menu">
                   <span></span>
                   <span></span>
-                  <span></span>
-                </div>
+                  
+                </div>      
               </div>
+              <section class="content">
+                <h1>LOMBOK</h1>
+                <p>HOLISTIC HEALTH</p>
+                <div class="content_wrapper">
+                  <p>━</p>
+                </div>
+              </section>
+              
             </div>
           </header>
 
-          <!-- ABOUT BANNER -->
-          <section class="aboutBanner" id="EWAN">
-              <div class="container">
-                <div class="aboutBanner_wrapper">
-                 <h1>LAMBOK</h1>
+    <!-- ARTICLES BANNER -->
+    <section class="articlesBanner" id="articles">
+      <div class="container">
+          <div class="articles_content">
+              <p>LATEST ARTICLES <br> ━━</p>
+
+       <div class="articlesSection">
+          <div class="container">
+            <div class="articlesSection_wrapper">
+              
+              <div class="articlesSection_card">
+                <img src="./card1.jpg" alt="">
+                <div class="articlesSection_card-content">
+                  <p>━
+                    <br>How to use mindfulness <br>in your everyday life</p>      
+                </div>
+              </div>
+
+              <div class="articlesSection_card">
+                <img src="./card2.jpg" alt="">
+                <div class="articlesSection_card-content">
+                  <p>━
+                    <br>What are the best walking 
+                    <br>meditations</p>
+                </div>
+              </div>
+
+              <div class="articlesSection_card">
+                <img src="./card3.jpg" alt="">
+                <div class="articlesSection_card-content">
+                 <p> ━
+                  <br>How to go deep into <br>the mind of hope</p>
+                </div>
+              </div>
+
               </div>
             </div>
-          </section>
- <div class="section aboutBanner" id="about">
-<div class="container">
-    <div class="aboutBanner_content">
-        <p>TESTING ABOUT</p>
-    </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="aboutBanner" id="about">
+  <div class="aboutcontainer">
+  <div class="aboutBanner_wrapper">
+      <img src="./aboutimg.jpg" alt="">
+    
+  <div class="aboutBanner_right">
+      <h1>ABOUT</h1>
+      <div class="abouttbar "></div>
+      <p>Since 1993 we have roamed is a blog from the earliest years. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+     </p>
+  </div>
+
 </div>
- </div>
+</div>
+</section>
+
+ <!-- SUBCRIBE BANNER -->
+
+ <section class="subscribeBanner" id="subscribe">
+    <div class="container">
+      <div class="subscribe_wrapper">
+
+        <div class="subscribe_content">
+            <h1>SUBSCRIBE</h1>
+            <p>Sign-up to our newsletter</p>
+  
+                <label>
+                <input type="text" placeholder="Your email"> 
+                
+                <button type="submit" class="submit-btn">SUBMIT</button>
+               </label>
+
+              </div>
+        </div>
+    </div>
+     </div>
+    </section>
+     <!-- footer -->
+     <footer class="footer">
+      <div class="container">
+          <div class="footer_wrapper">
+            <div class="footer-left">
+              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-square-pinterest"></i></a>
+            </div>
+              
+              <nav>
+                  <ul class="footer_nav">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#articles">ARTICLES</a></li>
+                    <li><a href="#subscribe">SUBSCRIBE</a></li>
+                    </ul>
+                  </nav>        
+                </div>
+                </div>
+                  <div class="toggle_menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+              </div>
+            </footer>
+
+            <script src="./script.js"></script>
+
+</body>
+</html>
